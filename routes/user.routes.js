@@ -8,6 +8,7 @@ const verifyToken = require("../src/middleware/verifyjwt.js");
 const changepassword = require("../src/controllers/change.password.js");
 const logoutuser = require("../src/controllers/logout.js");
 const GetLoggedInUser = require("../src/controllers/getLoggedinuser.js");
+const errorMiddleware = require("../utils/errorhandling.js");
 
 
 // register route
